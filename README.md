@@ -160,11 +160,7 @@ df["MA_50"] = df["close"].rolling(50).mean()
 ### 6. KDE of Daily Returns
 
 A Kernel Density Estimation (KDE) plot is used to visualize the distribution of Shopify's daily returns.
-<img width="1011" height="483" alt="Screenshot 2026-09-17 193748" src="https://github.com/user-attachments/assets/648052a6-366a-4e1e-a1cc-e59af307b298" />
-<img width="496" height="278" alt="Screenshot 2026-09-17 193701" src="https://github.com/user-attachments/assets/3d8a1426-a691-4eae-9abd-73f9357c0b30" />
-<img width="503" height="240" alt="Screenshot 2026-09-17 193443" src="https://github.com/user-attachments/assets/95428e5a-221c-41f2-a8e2-f61e690f6803" />
 
----
 
 ## 📁 Project Structure
 
@@ -211,7 +207,11 @@ Place the Shopify CSV dataset in the appropriate project directory.
 Run the cells sequentially to perform the complete EDA.
 
 ---
+<img width="1011" height="483" alt="Screenshot 2026-09-17 193748" src="https://github.com/user-attachments/assets/648052a6-366a-4e1e-a1cc-e59af307b298" />
+<img width="496" height="278" alt="Screenshot 2026-09-17 193701" src="https://github.com/user-attachments/assets/3d8a1426-a691-4eae-9abd-73f9357c0b30" />
+<img width="503" height="240" alt="Screenshot 2026-09-17 193443" src="https://github.com/user-attachments/assets/95428e5a-221c-41f2-a8e2-f61e690f6803" />
 
+---
 ## 📌 Key Findings
 
 * The dataset contains **2,469 trading records**.
